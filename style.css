@@ -1,4 +1,6 @@
-.flex{
+.flex-item{
+    background: blue;
+    font-size: 20px;
     max-width: 300px;
     padding: 10px;
     border: 2px solid black;
@@ -8,4 +10,10 @@
 .item{
     background-color: aqua;
     margin: 5px;
+}
+
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
